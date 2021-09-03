@@ -1,40 +1,21 @@
-name: GitHub Pages
+name: Deploy to Github Pages
 
-on:
-  push:
-    branches:
-      - master
-  pull_request:
+on: push
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+    name: Deploying to Github Pages
+
+    runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout branch
+        uses: actions/checkout@v2
 
-      - name: Setup Node
-        uses: actions/setup-node@v2
+      - name: Authorizing Github action
         with:
-          node-version: '14'
+          token: "${{ secrets.GITHUB_TOKEN }}"
+        uses: oleksiyrudenko/gha-git-credentials@v1
 
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - run: npm ci
-      - run: npm install gh-pages --save-dev
-      - run: npm run build
-      - run: npm run deploy
-      
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/master' }}
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+      - name: Doploy to GitHub Pages
+        uses: amitsingh-007/deploy-to-github-pages@v1.1
