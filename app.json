@@ -1,0 +1,24 @@
+{
+  "name": "app.co",
+  "env": {
+    "API_KEY": {
+      "required": true
+    },
+    "API_SERVER": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "heroku-redis:hobby-dev"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

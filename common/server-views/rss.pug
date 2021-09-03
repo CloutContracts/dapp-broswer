@@ -1,0 +1,20 @@
+doctype xml
+rss(version='2.0' xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/")
+  channel
+    title App.co
+    link https://app.co
+    atom:link(href='https://app.co/rss', rel='self', type='application/rss+xml')
+    description A universal dapp store.
+    language en-US
+    if apps.length
+      lastBuildDate= new Date(apps[0].createdAt).toUTCString()
+    each app in apps
+      item
+        title= app.name
+        - slug = app.Slugs && app.Slugs[0] ? app.Slugs[0].value : app.id
+        link https://app.co/app/#{slug}
+        description= app.description
+        pubDate= new Date(app.createdAt).toUTCString()
+        guid https://app.co/app/#{slug}
+        if app.imgixImageUrl
+          media:content(url=`${app.imgixImageUrl}?fm=png`, medium="image")
