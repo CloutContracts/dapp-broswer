@@ -32,7 +32,8 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - run: yarn install --frozen-lockfile
-      - run: yarn build
+      - run: yarn install common/lib/reviewers
+      - run: yarn build -f
       - run: yarn export
 
       - name: Deploy
