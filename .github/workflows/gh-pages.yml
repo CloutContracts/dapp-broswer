@@ -32,7 +32,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Run build
-        run: CI='' yarn build
+        run: CI='' yarn build -f
         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
