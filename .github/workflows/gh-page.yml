@@ -28,6 +28,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: npm ci
+      - run: npm install --save gh-pages
       - run: npm run build
 
       - name: Deploy
