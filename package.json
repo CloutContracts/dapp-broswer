@@ -2,7 +2,7 @@
   "name": "@metamask/dapps",
   "license": "ISC",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "resolutions": {
     "**/optimist/minimist": "^1.2.5",
     "**/loader-fs-cache/mkdirp": "^0.5.1"
