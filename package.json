@@ -3,7 +3,6 @@
   "license": "ISC",
   "version": "0.0.0",
   "private": true,
-  "homepage": "http://cloutcontracts.github.io/dapp-browser",
   "resolutions": {
     "**/optimist/minimist": "^1.2.5",
     "**/loader-fs-cache/mkdirp": "^0.5.1"
