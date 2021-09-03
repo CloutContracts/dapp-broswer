@@ -33,6 +33,7 @@ jobs:
 
       - run: yarn install --frozen-lockfile
       - run: yarn install common/lib/reviewers
+      - run: yarn install
       - run: yarn build -f
       - run: yarn export
 
