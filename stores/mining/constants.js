@@ -1,0 +1,3 @@
+export const SUBMIT_APP_STARTED = 'mining/SUBMIT_APP_STARTED'
+export const SUBMIT_APP_FINISHED = 'mining/SUBMIT_APP_FINISHED'
+export const SUBMIT_APP_ERROR = 'mining/SUBMIT_APP_ERROR'
