@@ -5,10 +5,7 @@ on:
     branches:
       # deploy on updates on main
       - main
-  schedule:
-    # redeploy every morning to update unpublished pages
-    - cron: "0 2 * * *"
-
+      
 jobs:
   deploy:
     runs-on: ubuntu-latest
