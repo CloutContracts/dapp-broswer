@@ -1,15 +1,32 @@
-name: Dapp Browser
+name: Jekyll Deploy
 
 on:
   push:
     branches:
-      - master
-      
+      # deploy on updates on main
+      - main
+  schedule:
+    # redeploy every morning to update unpublished pages
+    - cron: "0 2 * * *"
+
 jobs:
-  github-pages:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
-      - uses: helaili/jekyll-action@v2
+
+      - name: Cache gems
+        uses: actions/cache@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          path: vendor/gems
+          key: ${{ runner.os }}-build-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: Build & Deploy to GitHub Pages
+        uses: DavidS/jekyll-deploy@main
+        env:
+          JEKYLL_ENV: production
+          GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
