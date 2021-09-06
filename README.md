@@ -1,2 +1,2 @@
-# Dapp Browser (ARCHIVED)
-We originally wanted to fork [home.metamask.io](home.metamask.io), then transitioned into [app.co](app.co) once we had subdirectory problems before switching over to [Mediumish](https://github.com/wowthemesnet/mediumish-theme-jekyll) and trying to transfer NFT's Collectives theme files for our DAPP store. Since there is alot of junk history, we decided to just archive this and create a new repo.
+# Dapp Browser
+We originally wanted to fork [home.metamask.io](home.metamask.io), then transitioned into [app.co](app.co) once we had subdirectory problems before switching over to [Mediumish](https://github.com/wowthemesnet/mediumish-theme-jekyll) and trying to transfer NFT's Collectives theme files for our DAPP store.
