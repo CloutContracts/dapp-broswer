@@ -3,7 +3,7 @@ name: "CCS DApp Browser"
 title: "CCS DApp Browser"
 description: "The CloutContracts DApp Store"
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+favicon: 'assets/images/ccs.png'
 baseurl: /dapp-browser
 disqus: 'the-nft-collective'
 mailchimp-list: 'https://etherstone.us1.list-manage.com/subscribe/post?u=e9f19d46d2992e2f66c22ce6b&amp;id=cd7af70c81'
