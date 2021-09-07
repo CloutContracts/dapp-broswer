@@ -1,7 +1,7 @@
 # Site
 name: "CCS DApp Browser"
 title: "CCS DApp Browser"
-description: "The Next Big NFT Collective"
+description: "The CloutContracts DApp Store"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /dapp-browser
