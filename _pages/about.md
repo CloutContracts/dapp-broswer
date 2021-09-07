@@ -8,7 +8,7 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>NFTs or non-fungible tokens are non-interchangeable and unique items represented on the blockchain through a token. Some NFTs represent digital tickets, and forms of "ownsership". The main point of this collective is to discuss interesting developments within this industry. </p>
+<p> This is the official DApp browser for CloutContracts. CloutContracts is a smart contracts and blockchain platform for creators and social influencers. You can submit well developed or in progress DApps for listing in our DApp store. </p>
 
 </div>
 
