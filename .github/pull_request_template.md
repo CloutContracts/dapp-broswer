@@ -16,7 +16,7 @@ image: assets/images/#.jpg
 ```
 5. When all is said and done, submit a PR and if approved and merged, you are free to delete the fork. If you need to add updates in the future, you would need to submit a new PR where you change the date in the post and add the changes you want.
 
-**DID YOU?** \
-[] Add the right configs? \
-[] Name the images correctly? \
-[] Use the standard post template and naming conventions?
+**DID YOU?**
+- [ ] Add the right configs?
+- [ ] Name the images correctly?
+- [ ] Use the standard post template and naming conventions?
