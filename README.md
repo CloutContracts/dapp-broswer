@@ -13,7 +13,7 @@
 layout: post
 title:  "DApp Name"
 author: YourUserName
-categories: [announcements]
+categories: [social]
 image: assets/images/#.jpg
 
 ---
