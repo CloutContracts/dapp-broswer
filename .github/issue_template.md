@@ -8,10 +8,10 @@ Example:
 
 
 #### Expected Results
-<!-- Example: Didn't run -->
+<!-- Example: Runs -->
 
 #### Actual Results
-<!-- Example: Runs -->
+<!-- Example: Didn't Run -->
 
 ### Browsers Affected
 <!-- Check all that apply -->
