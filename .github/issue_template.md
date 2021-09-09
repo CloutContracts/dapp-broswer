@@ -15,10 +15,8 @@ Example:
 
 ### Browsers Affected
 <!-- Check all that apply -->
+- [ ] Edge
+- [ ] Opera
 - [ ] Chrome
 - [ ] Firefox
-- [ ] Edge
-- [ ] Safari 11
-- [ ] Safari 10
-- [ ] IE 11
-- [ ] Opera
+- [ ] Brave Browser
