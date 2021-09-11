@@ -8,6 +8,6 @@ image: assets/images/5.jpg
 ---
 This is the official block explorer for CloutContracts.
 
-Repository: https://github.com/CloutContracts/explorer
+Repository: [https://github.com/CloutContracts/explorer](https://github.com/CloutContracts/explorer)
 
-URL: https://cloutcontracts.net/explorer
+URL: [https://cloutcontracts.net/explorer](https://cloutcontracts.net/explorer)
