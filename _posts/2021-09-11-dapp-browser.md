@@ -8,6 +8,6 @@ image: assets/images/1.jpg
 ---
 This is the original Dapp Browser for CloutContracts.
 
-Repository: https://github.com/CloutContracts/dapp-browser/
+Repository: [https://github.com/CloutContracts/dapp-browser/](https://github.com/CloutContracts/dapp-browser/)
 
-URL: https://cloutcontracts.net/dapp-browser
+URL: [https://cloutcontracts.net/dapp-browser](https://cloutcontracts.net/dapp-browser)
