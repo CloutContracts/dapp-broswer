@@ -17,7 +17,7 @@ comments: true
 <div class="sticky-top sticky-top-80">
 <h5>Don't forget to Subscribe</h5>
 
-<p> If you like what we are doing, a good way to support us is to <a target="_blank" href="https://etherstone.us1.list-manage.com/subscribe/post?u=e9f19d46d2992e2f66c22ce6b&id=cd7af70c81">subscribe <i class="fab fa-github"></i></a>.</p>
+<p> If you like what we are doing, a good way to support us is to <a target="_blank" href="https://cloutcontracts.us5.list-manage.com/subscribe/post?u=efcda0497ed1fd5bae7ca7f0f&amp;id=82532a4122">subscribe <i class="fab fa-github"></i></a>.</p>
 
 </div>
 </div>
