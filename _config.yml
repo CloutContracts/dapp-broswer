@@ -6,7 +6,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/ccs.png'
 baseurl: /dapp-browser
 disqus: 'dapp-browser'
-mailchimp-list: 'https://etherstone.us1.list-manage.com/subscribe/post?u=e9f19d46d2992e2f66c22ce6b&amp;id=cd7af70c81'
+mailchimp-list: 'https://cloutcontracts.us5.list-manage.com/subscribe/post?u=efcda0497ed1fd5bae7ca7f0f&amp;id=82532a4122'
 include: ["_pages"]
 permalink: /:title/
 
