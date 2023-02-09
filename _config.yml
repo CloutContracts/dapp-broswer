@@ -2,8 +2,9 @@
 name: "CCS DApp Browser"
 title: "CCS DApp Browser"
 description: "The CloutContracts DApp Store"
-logo: 'assets/images/ccs.png'
+logo: 'assets/images/logo.png'
 favicon: 'assets/images/ccs.png'
+icon: 'assets/images/ccs.png'
 baseurl: /dapp-browser
 # disqus: 'dapp-browser'
 mailchimp-list: 'https://cloutcontracts.us5.list-manage.com/subscribe/post?u=efcda0497ed1fd5bae7ca7f0f&amp;id=82532a4122'
