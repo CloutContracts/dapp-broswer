@@ -2,7 +2,7 @@
 name: "CCS DApp Browser"
 title: "CCS DApp Browser"
 description: "The CloutContracts DApp Store"
-logo: 'assets/images/logo.png'
+logo: 'assets/images/ccs.png'
 favicon: 'assets/images/ccs.png'
 baseurl: /dapp-browser
 # disqus: 'dapp-browser'
