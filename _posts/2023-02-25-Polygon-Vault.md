@@ -2,7 +2,7 @@
 layout: post
 title:  "Polygon Vault"
 author: Andrew
-categories: [tools]
+categories: [dapps]
 image: assets/images/5.jpg
 
 ---
