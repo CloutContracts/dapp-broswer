@@ -3,7 +3,7 @@ layout: post
 title:  "Polygon Vault"
 author: Andrew
 categories: [dapps]
-image: assets/images/5.jpg
+image: assets/images/16.jpg
 
 ---
 Original "value" burn vault for CCSv2DAO circulating NFTs
